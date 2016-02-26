@@ -1,0 +1,6 @@
+---
+applications:
+- name: ${manifest.application.name}
+  services:
+  - postgres
+  path: ${manifest.application.path}
